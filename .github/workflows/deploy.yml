@@ -20,10 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      # Habilita o GitHub Pages no repo (se ainda não estiver) e injeta a base.
-      - uses: actions/configure-pages@v5
-        with:
-          enablement: true
+      # O GitHub Pages já está habilitado no repo com "GitHub Actions" como
+      # origem (Settings > Pages), então não é preciso configure-pages aqui.
       - uses: actions/setup-node@v4
         with:
           node-version: 20
