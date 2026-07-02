@@ -1,0 +1,13 @@
+node_modules
+dist
+.env.local
+*.log
+.DS_Store
+*.tsbuildinfo
+public/version.json
+node_modules/.tmp
+
+# artefatos gerados por `tsc -b` a partir de tsconfig.node.json
+vite.config.js
+vite.config.d.ts
+vite.config.timestamp-*.mjs
