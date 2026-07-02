@@ -11,11 +11,9 @@ processos. É uma versão pública e navegável, com o Firebase substituído por
 **banco de dados em memória** semeado com dados fictícios — dá para clicar,
 navegar e explorar todas as telas sem login real e sem qualquer configuração.
 
-## 🔗 Demo ao vivo
+## 🎭 Perfis de demonstração
 
-**https://gsb05br.github.io/SIG-NURGE-PUBLIC/**
-
-Na tela de entrada, escolha um perfil de demonstração:
+Clone e rode localmente (ver abaixo). Na tela de entrada, escolha um perfil:
 
 - **Distribuidor** — visão completa: importação, distribuição, não atribuídos,
   processos, coordenação, avisos, usuários, produtividade, histórico e
@@ -43,8 +41,8 @@ npm install
 npm run dev
 ```
 
-Depois abra o endereço que o Vite imprimir (algo como
-`http://localhost:5173/SIG-NURGE-PUBLIC/`).
+Depois abra o endereço que o Vite imprimir (normalmente
+`http://localhost:5173/`).
 
 Build de produção:
 
@@ -57,7 +55,7 @@ npm run preview
 
 - **React 18** + **TypeScript** + **Vite**
 - **Tailwind CSS** (design system próprio)
-- **React Router** (HashRouter, para funcionar em GitHub Pages)
+- **React Router** (HashRouter — deep-links funcionam em qualquer host estático)
 - **Zustand** (estado global) · **Recharts** (gráficos) · **lucide-react** (ícones)
 
 ## 🏗️ Como o showcase funciona

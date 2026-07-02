@@ -4,9 +4,9 @@ import path from 'node:path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // Servido em https://<user>.github.io/SIG-NURGE-PUBLIC/ (GitHub Pages).
-  // Ao publicar em outro caminho, ajuste `base` (ou use '/').
-  base: '/SIG-NURGE-PUBLIC/',
+  // App servido na raiz (npm run dev / preview). Ao hospedar num subcaminho,
+  // ajuste `base` de acordo (ex.: '/SIG-NURGE-PUBLIC/').
+  base: '/',
   plugins: [react()],
   build: {
     rollupOptions: {
